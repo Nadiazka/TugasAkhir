@@ -81,14 +81,12 @@
           </div>
         </div>
       </div>
-      <!-- Admin -->
-      <a class="btn btn-info" href="{% url 'admin:index' %}">Admin</a>
       <!-- Account -->
       <div class="dropdown">
-        <button type="button" class="btn dropdown-toggle btn-info" data-toggle="dropdown">{{ request.user }}</button>
+        <button type="button" class="btn dropdown-toggle btn-info" data-toggle="dropdown">User</button>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="{% url 'editProfile' %}">Settings</a>
-          <a class="dropdown-item" href="{% url 'logout' %}">Log out</a>
+          <a class="dropdown-item" href="#">Settings</a>
+          <a class="dropdown-item" href="#">Log out</a>
         </div>
       </div>
     </div>
@@ -183,14 +181,15 @@
   <div class="row">
     <div class="col-md-4" style="height=5px;">
       <canvas id="myChart1"></canvas>
-      {% block ChartWil %} {% endblock %}
-      <script >
-        document.write("apayaa");
+      {% block oke %}{% endblock %}
+      <script>
+        $(document).ready(function(){
+          {% block jquery %}{% endblock %}
+        })
       </script>
     </div>
     <div class="col-md-4" style="height=5px;">
       <canvas id="barChart"></canvas>
-      {% include "app_trialv12/ChartPnykt.html" %}
     </div>
     <div class="col-md-4" style="height=5px;">
       <canvas id="pieChart"></canvas>

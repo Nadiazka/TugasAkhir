@@ -1,3 +1,4 @@
+/*
 var ctx = document.getElementById("myChart1").getContext('2d');
 var myChart1 = new Chart(ctx, {
 type: 'bar',
@@ -35,7 +36,7 @@ beginAtZero: true
 }
 }
 });
-
+*/
 //line
 var ctxL = document.getElementById("lineChart").getContext('2d');
 var myLineChart = new Chart(ctxL, {
@@ -72,6 +73,7 @@ responsive: true
 });
 
 //bar
+/*
 var ctxB = document.getElementById("barChart").getContext('2d');
 var myBarChart = new Chart(ctxB, {
 type: 'bar',
@@ -109,7 +111,7 @@ beginAtZero: true
 }
 }
 });
-
+*/
 //pie
 var ctxP = document.getElementById("pieChart").getContext('2d');
 var myPieChart = new Chart(ctxP, {

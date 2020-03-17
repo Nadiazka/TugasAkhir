@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>testdatav1</title>
+</head>
+<body>
+	<h1>Ini pasien</h1>
+	{% for i in objPasien %}
+		<p>"{{ i.kat_pasien }}", "{{ i.umur }}", "{{ i.jenis_kelamin }}" </p><br>
+	{% endfor %}
+	<p>{{ objPasien.kat_pasien }}</p>
+</body>
+</html>
