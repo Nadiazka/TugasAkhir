@@ -33,6 +33,8 @@ urlpatterns = [
     url(r'^register/', views_acc.registerPage, name="register"),
     url(r'^edit/profile/', views_acc.editProfile, name="editProfile"),
     url(r'^change/password/', views_acc.changePasswordPage, name="changePass"),
+    url(r'^pasien/', views.pasienJSON, name="pasienJSON"),
+    #url(r'^Pasien/', include('app_trialv12.urls')),
     #url(r'^login/', include('accounts.urls')),
     #url(r'^register/', include('accounts.urls')),
 ]

@@ -1,6 +1,15 @@
 from django.db import models
 
 # Create your models here.
+"""	
+class Spasial(Model):
+	nama = models.CharField(max_length=20)
+	dataSpasial = JSONField()
+
+	def __str__(self):
+		return str(self.nama)
+"""		
+
 class Pasien(models.Model):
 	"""docstring for Pasien"""
 	kat_pasien = models.IntegerField( primary_key=True)

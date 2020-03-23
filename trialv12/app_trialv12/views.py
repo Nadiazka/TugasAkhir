@@ -1,9 +1,10 @@
 from django.http import JsonResponse
-from rest_framework import serializers
+#from rest_framework.generic import ListAPIView
 from django.shortcuts import render
 from django.views.generic import View
 from .models import *
 from django.contrib.auth.decorators import login_required
+from .serializers import *
 
 # Create your views here.
 @login_required(login_url='login')
@@ -39,3 +40,7 @@ def get_data(request):
 			"label_data": ['13-17', '18-24', '25-34', '35-44','45-54','55-64']
 			}
 	return JsonResponse(data)
+
+def pasienJSON(ListAPIView):
+	objPasien = Pasien.objects.all()
+	jsonPasien = PasienSerializer

@@ -2,6 +2,7 @@ from django.contrib import admin
 from app_trialv12.models import *
 # Register your models here.
 
+#admin.site.register(Spasial)
 admin.site.register(Pasien)
 admin.site.register(Puskesmas)
 admin.site.register(Indeks)
