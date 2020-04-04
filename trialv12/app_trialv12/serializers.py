@@ -31,11 +31,6 @@ class ICD10_SubkategoriSerializer(serializers.ModelSerializer):
  		models = ICD10_Subkategori
  		fields = '__all__'
 
-class KasusSerializer(serializers.ModelSerializer):
- 	class Meta:
- 		models = Kasus
- 		fields = '__all__'
-
 class Jumlah_KasusSerializer(serializers.ModelSerializer):
  	class Meta:
  		models = Jumlah_Kasus

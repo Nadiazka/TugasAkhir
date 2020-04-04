@@ -1,23 +1,61 @@
+from django.db.models import Q
 from django.db import models
 
-# Create your models here.
-"""	
-class Spasial(Model):
-	nama = models.CharField(max_length=20)
-	dataSpasial = JSONField()
+class filter(models.Manager):
+	@classmethod
+	def filterWilayah(self, query=None):
+		qs = self.get_queryset()
+		if query is not None:
+			or_lookup = (Q(kode__kode_pkm__nama_pkm__iexact=query) |
+				Q(kode__kode_pkm__kecamatan__iexact=query))
+			qs = qs.filter(or_lookup).values('kasus_baru', 'kasus_lama')
+		return qs
 
-	def __str__(self):
-		return str(self.nama)
-"""		
+	@classmethod
+	def filterPenyakit(self, query=None):
+		qs = self.get_queryset()
+		if query is not None:
+			or_lookup = (Q(icd_10__nama_subkat__icontains=query) |
+				Q(icd_10__kat__nama_kat__icontains=query) |
+				Q(icd_10__kat__subchapter__nama_subchapter__icontains=query) |
+				Q(icd_10__kat__subchapter__chapter__nama_chapter__icontains=query))
+			qs = qs.filter(or_lookup).values('kasus_baru', 'kasus_lama')
+		return qs
+
+	@classmethod
+	def filterJenisKelamin(self, query=None):
+		qs = self.get_queryset()
+		if query is not None:
+			qs = qs.filter(kat_pasien__jenis_kelamin__iexact=query).values('kasus_baru', 'kasus_lama')
+		return qs
+	#jangan lupa filter dibawah bisa pake range
+
+	@classmethod
+	def filterUmur(self, query=None):
+		qs = self.get_queryset()
+		if query is not None:
+			qs = qs.filter(kat_pasien__umur__icontains=query).values('kasus_baru', 'kasus_lama')
+		return qs
+
+	@classmethod
+	def filterPeriode(self, query=None):
+		qs = self.get_queryset()
+		if query is not None:
+			qs = qs.filter(kode__tanggal__icontains=query).values('kasus_baru', 'kasus_lama')
+		return qs
 
 class Pasien(models.Model):
 	"""docstring for Pasien"""
-	kat_pasien = models.IntegerField( primary_key=True)
+	kat_pasien = models.AutoField( primary_key=True)
 	umur = models.CharField(max_length=10)
-	jenis_kelamin = models.IntegerField()
+	jenis_kelamin = models.CharField(max_length=10)
 
 	def __str__(self):
 		return str(self.kat_pasien)
+
+	class meta:
+		import_id_fields = ('kat_pasien')
+    	exclude = ('id')
 
 class Puskesmas(models.Model):
 	"""docstring for Puskesmas"""
@@ -27,7 +65,8 @@ class Puskesmas(models.Model):
 
 	def __str__(self):
 		return self.nama_pkm
-		
+	
+
 class Indeks(models.Model):
 	"""docstring for Indeks"""
 	kode = models.IntegerField()
@@ -35,7 +74,6 @@ class Indeks(models.Model):
 	tanggal = models.DateField()
 	deleted = models.IntegerField()
 	last_upload = models.IntegerField()
-	#constraint = models.ForeignKey(Upload_Log)
 
 	def __str__(self):
 		return str(self.kode)
@@ -75,24 +113,10 @@ class ICD10_Subkategori(models.Model):
 	def __str__(self):
 		return self.nama_subkat
 
-class Kasus(models.Model):
-	"""docstring for Kasus"""
-	kode = models.ForeignKey(Indeks, on_delete=models.CASCADE)
-	icd_10 = models.ForeignKey(ICD10_Subkategori, on_delete=models.CASCADE)
-	kat_pasien = models.ForeignKey(Pasien, on_delete=models.CASCADE)
-	kasus_baru = models.IntegerField()
-	kasus_lama = models.IntegerField()
-
-	def __str__(self):
-		return self.icd_10
-
 class Jumlah_Kasus(models.Model):
 	"""docstring for Jumlah_Kasus"""
 	kode = models.ForeignKey(Indeks, on_delete=models.CASCADE)
 	icd_10 = models.ForeignKey(ICD10_Subkategori, on_delete=models.CASCADE)
-	#umur = models.ForeignKey(Pasien, on_delete=models.CASCADE)
-	#jenis_kelamin = models.ForeignKey(Pasien, on_delete=models.CASCADE)
-	#jumlah = models.IntegerField()
 	jumlah_baru_l = models.IntegerField()
 	jumlah_baru_p = models.IntegerField()
 	jumlah_lama_l = models.IntegerField()
@@ -101,6 +125,19 @@ class Jumlah_Kasus(models.Model):
 
 	def __str__(self):
 		return '%s %s' % (self.kode, self.icd_10)
+
+class Kasus(models.Model):
+	"""docstring for Kasus"""
+	kode = models.ForeignKey(Indeks, on_delete=models.CASCADE)
+	icd_10 = models.ForeignKey(ICD10_Subkategori, on_delete=models.CASCADE)
+	kat_pasien = models.ForeignKey(Pasien, on_delete=models.CASCADE)
+	kasus_baru = models.IntegerField()
+	kasus_lama = models.IntegerField()
+	objects = filter()
+
+	def __str__(self):
+		return str(self.icd_10)
+	
 """
 class Jumlah_Kasus(models.Model):
 	kode = models.ForeignKey(Indeks, on_delete=models.CASCADE)

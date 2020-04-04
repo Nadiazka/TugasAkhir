@@ -1,7 +1,8 @@
+from itertools import chain
 from django.http import JsonResponse
-#from rest_framework.generic import ListAPIView
+from rest_framework import viewsets
 from django.shortcuts import render
-from django.views.generic import View
+from django.views.generic import View, ListView
 from .models import *
 from django.contrib.auth.decorators import login_required
 from .serializers import *
@@ -41,6 +42,45 @@ def get_data(request):
 			}
 	return JsonResponse(data)
 
-def pasienJSON(ListAPIView):
+"""
+class pasienJSON(viewsets.ModelViewSet):
 	objPasien = Pasien.objects.all()
 	jsonPasien = PasienSerializer
+"""
+
+class SearchView(ListView):
+    template_name = 'app_trialv12/tesdatav1.html'
+    
+    def get_context_data(self, *args, **kwargs):
+        context = super().get_context_data(*args, **kwargs)
+        context['query'] = self.request.GET.get('q')
+        return context
+
+    def get_queryset(self):
+        request = self.request
+        query = request.GET.get('q', None)
+        
+        if query is not None:
+            wilayah_results     	= Kasus.objects.filterWilayah(query)
+            penyakit_results     	= Kasus.objects.filterPenyakit(query)
+            jeniskelamin_results    = Kasus.objects.filterJenisKelamin(query)
+            umur_results     		= Kasus.objects.filterUmur(query)
+            periode_results     	= Kasus.objects.filterPeriode(query)
+            
+            # combine querysets 
+            queryset_chain = chain(
+                    wilayah_results,
+                    penyakit_results,
+                    jeniskelamin_results,
+                    umur_results,
+                    periode_results
+            )        
+
+            qs = sorted(queryset_chain, reverse=True)
+            self.count = len(qs) # since qs is actually a list
+            return qs
+        return Kasus.objects.none() # just an empty queryset as default
+
+def getWilayah(request):
+	dataWilayah = Kasus.objects.filterWilayah(request)
+	return render (request, 'app_trialv12/tesdatav1.html', {'dataWilayah':dataWilayah})

@@ -41,8 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'app_trialv12',
     'accounts',
-    'rest_framework',
-    'rest_framework_gis',
+    'django_filters',
+    'import_export',
 ]
 
 MIDDLEWARE = [

@@ -19,10 +19,10 @@ from django.conf.urls import url, include
 from app_trialv12 import views
 from app_trialv12.views import *
 from accounts import views as views_acc
-#from rest_framework import routers
+from rest_framework import routers
 
 #router = routers.DefaultRouter()
-#router.register()
+#router.register('pasien', views.pasienJSON)
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -33,7 +33,8 @@ urlpatterns = [
     url(r'^register/', views_acc.registerPage, name="register"),
     url(r'^edit/profile/', views_acc.editProfile, name="editProfile"),
     url(r'^change/password/', views_acc.changePasswordPage, name="changePass"),
-    url(r'^pasien/', views.pasienJSON, name="pasienJSON"),
+   # url(r'^pasien/', include(router.urls)),
+    #url(r'^pasien/', views.pasienJSON, name="pasienJSON"),
     #url(r'^Pasien/', include('app_trialv12.urls')),
     #url(r'^login/', include('accounts.urls')),
     #url(r'^register/', include('accounts.urls')),
