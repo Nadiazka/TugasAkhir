@@ -10,7 +10,7 @@ class PuskesmasSerializer(serializers.ModelSerializer):
  	class Meta:
  		models = Puskesmas
  		fields = '__all__'
- 			
+"""			
 class IndeksSerializer(serializers.ModelSerializer):
  	class Meta:
  		models = Indeks
@@ -35,3 +35,4 @@ class Jumlah_KasusSerializer(serializers.ModelSerializer):
  	class Meta:
  		models = Jumlah_Kasus
  		fields = '__all__'
+"""

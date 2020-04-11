@@ -50,8 +50,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='Indeks',
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('kode', models.IntegerField()),
+                ('kode', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('tanggal', models.DateField()),
                 ('deleted', models.IntegerField()),
                 ('last_upload', models.IntegerField()),

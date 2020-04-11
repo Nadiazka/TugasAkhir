@@ -53,10 +53,6 @@ class Pasien(models.Model):
 	def __str__(self):
 		return str(self.kat_pasien)
 
-	class meta:
-		import_id_fields = ('kat_pasien')
-    	exclude = ('id')
-
 class Puskesmas(models.Model):
 	"""docstring for Puskesmas"""
 	kode_pkm = models.CharField(max_length=12, primary_key=True)
@@ -65,11 +61,9 @@ class Puskesmas(models.Model):
 
 	def __str__(self):
 		return self.nama_pkm
-	
 
 class Indeks(models.Model):
-	"""docstring for Indeks"""
-	kode = models.IntegerField()
+	kode = models.AutoField(primary_key=True)
 	kode_pkm = models.ForeignKey(Puskesmas, on_delete=models.CASCADE)
 	tanggal = models.DateField()
 	deleted = models.IntegerField()
@@ -77,6 +71,7 @@ class Indeks(models.Model):
 
 	def __str__(self):
 		return str(self.kode)
+
 		
 class ICD10_Chapter(models.Model):
 	"""docstring for ICD10_Chapter"""
@@ -114,7 +109,6 @@ class ICD10_Subkategori(models.Model):
 		return self.nama_subkat
 
 class Jumlah_Kasus(models.Model):
-	"""docstring for Jumlah_Kasus"""
 	kode = models.ForeignKey(Indeks, on_delete=models.CASCADE)
 	icd_10 = models.ForeignKey(ICD10_Subkategori, on_delete=models.CASCADE)
 	jumlah_baru_l = models.IntegerField()
@@ -127,7 +121,6 @@ class Jumlah_Kasus(models.Model):
 		return '%s %s' % (self.kode, self.icd_10)
 
 class Kasus(models.Model):
-	"""docstring for Kasus"""
 	kode = models.ForeignKey(Indeks, on_delete=models.CASCADE)
 	icd_10 = models.ForeignKey(ICD10_Subkategori, on_delete=models.CASCADE)
 	kat_pasien = models.ForeignKey(Pasien, on_delete=models.CASCADE)
@@ -137,14 +130,11 @@ class Kasus(models.Model):
 
 	def __str__(self):
 		return str(self.icd_10)
-	
 """
 class Jumlah_Kasus(models.Model):
 	kode = models.ForeignKey(Indeks, on_delete=models.CASCADE)
 	icd_10 = models.ForeignKey(ICD10_Subkategori, on_delete=models.CASCADE)
 	umur = models.ForeignKey(Pasien, on_delete=models.CASCADE)
-	#jenis_kelamin = models.ForeignKey(Pasien, on_delete=models.CASCADE)
-	#jumlah = models.IntegerField()
 	jumlah_baru_l = models.IntegerField()
 	jumlah_baru_p = models.IntegerField()
 	jumlah_lama_l = models.IntegerField()
@@ -153,25 +143,4 @@ class Jumlah_Kasus(models.Model):
 
 	def __str__(self):
 		return '%s %s' % (self.kode, self.icd_10)
-
-class Data_User(models.Model):
-	user_ID = models.IntegerField(primary_key=True)
-	username = models.CharField(max_length=12)
-	password = models.CharField(max_length=20)
-	nama_user = models.CharField(max_length=50)
-	email = models.EmailField(max_length=40)
-	id_dinkes = models.CharField(max_length=30)
-	level = models.IntegerField()
-	deleted = models.IntegerField()
-	
-	def __str__():
-		self.user_ID
-		self.username
-		self.password
-		self.nama_user
-		self.email
-		self.id_dinkes
-		self.level
-		self.deleted
-"""
-																														
+"""																						
