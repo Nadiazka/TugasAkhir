@@ -3,12 +3,12 @@ from .models import *
 
 class PasienSerializer(serializers.ModelSerializer):
  	class Meta:
- 		models = Pasien
+ 		model = Pasien
  		fields = '__all__'
 
 class PuskesmasSerializer(serializers.ModelSerializer):
  	class Meta:
- 		models = Puskesmas
+ 		model = Puskesmas
  		fields = '__all__'
 """			
 class IndeksSerializer(serializers.ModelSerializer):

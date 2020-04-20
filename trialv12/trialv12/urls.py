@@ -28,14 +28,11 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.index, name='index'),
     url(r'^api/data/$', get_data, name='api-data' ),
-    url(r'^login/', views_acc.loginPage, name="login"),
-    url(r'^logout/', views_acc.logoutUser, name="logout"),
-    url(r'^register/', views_acc.registerPage, name="register"),
-    url(r'^edit/profile/', views_acc.editProfile, name="editProfile"),
-    url(r'^change/password/', views_acc.changePasswordPage, name="changePass"),
+    url(r'', include('accounts.urls')),
+    url(r'', include('app_trialv12.urls')),
    # url(r'^pasien/', include(router.urls)),
     #url(r'^pasien/', views.pasienJSON, name="pasienJSON"),
     #url(r'^Pasien/', include('app_trialv12.urls')),
-    #url(r'^login/', include('accounts.urls')),
+    
     #url(r'^register/', include('accounts.urls')),
 ]

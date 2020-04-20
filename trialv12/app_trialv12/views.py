@@ -1,6 +1,9 @@
 from itertools import chain
 from django.http import JsonResponse
 from rest_framework import viewsets
+from rest_framework.response import Response
+from rest_framework import status
+from rest_framework.views import APIView
 from django.shortcuts import render
 from django.views.generic import View, ListView
 from .models import *
@@ -84,3 +87,18 @@ class SearchView(ListView):
 def getWilayah(request):
 	dataWilayah = Kasus.objects.filterWilayah(request)
 	return render (request, 'app_trialv12/tesdatav1.html', {'dataWilayah':dataWilayah})
+
+class PasienAPI(APIView):
+	def get(self, request):
+		pasiens = Pasien.objects.all()
+		serializer = PasienSerializer(pasiens, many=True)
+		return Response(serializer.data)
+
+	def post(self, request):
+		serializer = PasienSerializer(data=request.data)
+
+		if serializer.is_valid():
+			serializer.save()
+			return Response(serializer.data, status=status.HTTP_201_CREATED)
+		return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+		
