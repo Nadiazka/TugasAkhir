@@ -1,0 +1,452 @@
+[
+ {
+   "Puskesmas": "Ahmad Yani",
+   "Sleepy": 4,
+   "Rebahan": 5,
+   "Procastinate": 7
+ },
+ {
+   "Puskesmas": "Antapani",
+   "Sleepy": 6,
+   "Rebahan": 10,
+   "Procastinate": 8
+ },
+ {
+   "Puskesmas": "Arcamanik",
+   "Sleepy": 3,
+   "Rebahan": 3,
+   "Procastinate": 1
+ },
+ {
+   "Puskesmas": "Astana Anyar",
+   "Sleepy": 7,
+   "Rebahan": 4,
+   "Procastinate": 15
+ },
+ {
+   "Puskesmas": "Babakan Sari",
+   "Sleepy": 8,
+   "Rebahan": 15,
+   "Procastinate": 6
+ },
+ {
+   "Puskesmas": "Babakan Surabaya",
+   "Sleepy": 1,
+   "Rebahan": 1,
+   "Procastinate": 9
+ },
+ {
+   "Puskesmas": "Babatan",
+   "Sleepy": 15,
+   "Rebahan": 11,
+   "Procastinate": 3
+ },
+ {
+   "Puskesmas": "Balai Kota",
+   "Sleepy": 6,
+   "Rebahan": 17,
+   "Procastinate": 7
+ },
+ {
+   "Puskesmas": "Campaka Arum",
+   "Sleepy": 9,
+   "Rebahan": 25,
+   "Procastinate": 8
+ },
+ {
+   "Puskesmas": "Caringin",
+   "Sleepy": 3,
+   "Rebahan": 13,
+   "Procastinate": 1
+ },
+ {
+   "Puskesmas": "Cetarip",
+   "Sleepy": 6,
+   "Rebahan": 4,
+   "Procastinate": 15
+ },
+ {
+   "Puskesmas": "Cibiru",
+   "Sleepy": 2,
+   "Rebahan": 6,
+   "Procastinate": 6
+ },
+ {
+   "Puskesmas": "Cibolerang",
+   "Sleepy": 5,
+   "Rebahan": 3,
+   "Procastinate": 4
+ },
+ {
+   "Puskesmas": "Cibuntu",
+   "Sleepy": 1,
+   "Rebahan": 7,
+   "Procastinate": 6
+ },
+ {
+   "Puskesmas": "Cigondewah",
+   "Sleepy": 7,
+   "Rebahan": 8,
+   "Procastinate": 3
+ },
+ {
+   "Puskesmas": "Cijagra Baru",
+   "Sleepy": 18,
+   "Rebahan": 1,
+   "Procastinate": 7
+ },
+ {
+   "Puskesmas": "Cijagra Lama 1",
+   "Sleepy": 5,
+   "Rebahan": 15,
+   "Procastinate": 8
+ },
+ {
+   "Puskesmas": "Cijagra Lama",
+   "Sleepy": 10,
+   "Rebahan": 6,
+   "Procastinate": 2
+ },
+ {
+   "Puskesmas": "Cijerah",
+   "Sleepy": 3,
+   "Rebahan": 9,
+   "Procastinate": 5
+ },
+ {
+   "Puskesmas": "Cikutra Lama",
+   "Sleepy": 4,
+   "Rebahan": 6,
+   "Procastinate": 1
+ },
+ {
+   "Puskesmas": "Cilengkrang",
+   "Sleepy": 15,
+   "Rebahan": 2,
+   "Procastinate": 7
+ },
+ {
+   "Puskesmas": "Cinambo",
+   "Sleepy": 1,
+   "Rebahan": 5,
+   "Procastinate": 18
+ },
+ {
+   "Puskesmas": "Cipadung",
+   "Sleepy": 11,
+   "Rebahan": 1,
+   "Procastinate": 9
+ },
+ {
+   "Puskesmas": "Cipaku",
+   "Sleepy": 17,
+   "Rebahan": 7,
+   "Procastinate": 6
+ },
+ {
+   "Puskesmas": "Cipamokalan",
+   "Sleepy": 25,
+   "Rebahan": 18,
+   "Procastinate": 2
+ },
+ {
+   "Puskesmas": "CIUMBULEUIT",
+   "Sleepy": 13,
+   "Rebahan": 5,
+   "Procastinate": 5
+ },
+ {
+   "Puskesmas": "Dago",
+   "Sleepy": 4,
+   "Rebahan": 10,
+   "Procastinate": 1
+ },
+ {
+   "Puskesmas": "Derawati",
+   "Sleepy": 9,
+   "Rebahan": 3,
+   "Procastinate": 7
+ },
+ {
+   "Puskesmas": "Garuda",
+   "Sleepy": 7,
+   "Rebahan": 17,
+   "Procastinate": 7
+ },
+ {
+   "Puskesmas": "Girimande",
+   "Sleepy": 1,
+   "Rebahan": 25,
+   "Procastinate": 1
+ },
+ {
+   "Puskesmas": "Griya Antapani",
+   "Sleepy": 18,
+   "Rebahan": 13,
+   "Procastinate": 18
+ },
+ {
+   "Puskesmas": "Gumuruh",
+   "Sleepy": 20,
+   "Rebahan": 4,
+   "Procastinate": 20
+ },
+ {
+   "Puskesmas": "Ibrahim Aji 1",
+   "Sleepy": 15,
+   "Rebahan": 9,
+   "Procastinate": 15
+ },
+ {
+   "Puskesmas": "Ibrahim Aji",
+   "Sleepy": 14,
+   "Rebahan": 7,
+   "Procastinate": 2
+ },
+ {
+   "Puskesmas": "Jatihandap",
+   "Sleepy": 17,
+   "Rebahan": 1,
+   "Procastinate": 5
+ },
+ {
+   "Puskesmas": "Jejaway",
+   "Sleepy": 13,
+   "Rebahan": 18,
+   "Procastinate": 1
+ },
+ {
+   "Puskesmas": "Karangsetra",
+   "Sleepy": 1,
+   "Rebahan": 4,
+   "Procastinate": 7
+ },
+ {
+   "Puskesmas": "Kopo",
+   "Sleepy": 4,
+   "Rebahan": 7,
+   "Procastinate": 18
+ },
+ {
+   "Puskesmas": "Kujangsari",
+   "Sleepy": 7,
+   "Rebahan": 2,
+   "Procastinate": 5
+ },
+ {
+   "Puskesmas": "Ledeng",
+   "Sleepy": 2,
+   "Rebahan": 8,
+   "Procastinate": 10
+ },
+ {
+   "Puskesmas": "LIOGETENG",
+   "Sleepy": 8,
+   "Rebahan": 4,
+   "Procastinate": 3
+ },
+ {
+   "Puskesmas": "Mandala Mekar",
+   "Sleepy": 4,
+   "Rebahan": 16,
+   "Procastinate": 16
+ },
+ {
+   "Puskesmas": "Margahayu Raya",
+   "Sleepy": 16,
+   "Rebahan": 2,
+   "Procastinate": 2
+ },
+ {
+   "Puskesmas": "Mengger",
+   "Sleepy": 2,
+   "Rebahan": 1,
+   "Procastinate": 8
+ },
+ {
+   "Puskesmas": "Moh Ramdhan",
+   "Sleepy": 8,
+   "Rebahan": 18,
+   "Procastinate": 12
+ },
+ {
+   "Puskesmas": "Neglasari",
+   "Sleepy": 12,
+   "Rebahan": 20,
+   "Procastinate": 15
+ },
+ {
+   "Puskesmas": "Padasuka",
+   "Sleepy": 15,
+   "Rebahan": 15,
+   "Procastinate": 6
+ },
+ {
+   "Puskesmas": "Pagarsih",
+   "Sleepy": 6,
+   "Rebahan": 14,
+   "Procastinate": 2
+ },
+ {
+   "Puskesmas": "Pamulang",
+   "Sleepy": 2,
+   "Rebahan": 17,
+   "Procastinate": 9
+ },
+ {
+   "Puskesmas": "Panghegar",
+   "Sleepy": 9,
+   "Rebahan": 13,
+   "Procastinate": 7
+ },
+ {
+   "Puskesmas": "Panyileukan",
+   "Sleepy": 3,
+   "Rebahan": 1,
+   "Procastinate": 1
+ },
+ {
+   "Puskesmas": "Pasawahan",
+   "Sleepy": 8,
+   "Rebahan": 4,
+   "Procastinate": 18
+ },
+ {
+   "Puskesmas": "Pasir Kaliki",
+   "Sleepy": 10,
+   "Rebahan": 7,
+   "Procastinate": 4
+ },
+ {
+   "Puskesmas": "Pasirlayung",
+   "Sleepy": 5,
+   "Rebahan": 2,
+   "Procastinate": 7
+ },
+ {
+   "Puskesmas": "Pasirluyu",
+   "Sleepy": 7,
+   "Rebahan": 8,
+   "Procastinate": 2
+ },
+ {
+   "Puskesmas": "Pasundan",
+   "Sleepy": 1,
+   "Rebahan": 4,
+   "Procastinate": 15
+ },
+ {
+   "Puskesmas": "Pelindung Hewan",
+   "Sleepy": 8,
+   "Rebahan": 16,
+   "Procastinate": 18
+ },
+ {
+   "Puskesmas": "Puter",
+   "Sleepy": 20,
+   "Rebahan": 2,
+   "Procastinate": 12
+ },
+ {
+   "Puskesmas": "Riung Bandung",
+   "Sleepy": 3,
+   "Rebahan": 8,
+   "Procastinate": 4
+ },
+ {
+   "Puskesmas": "Rusunawa",
+   "Sleepy": 5,
+   "Rebahan": 12,
+   "Procastinate": 8
+ },
+ {
+   "Puskesmas": "Salam",
+   "Sleepy": 14,
+   "Rebahan": 15,
+   "Procastinate": 2
+ },
+ {
+   "Puskesmas": "Sarijadi",
+   "Sleepy": 12,
+   "Rebahan": 6,
+   "Procastinate": 17
+ },
+ {
+   "Puskesmas": "Sekejati",
+   "Sleepy": 15,
+   "Rebahan": 2,
+   "Procastinate": 13
+ },
+ {
+   "Puskesmas": "Sekeloa",
+   "Sleepy": 18,
+   "Rebahan": 9,
+   "Procastinate": 1
+ },
+ {
+   "Puskesmas": "Sindang Jaya",
+   "Sleepy": 12,
+   "Rebahan": 3,
+   "Procastinate": 4
+ },
+ {
+   "Puskesmas": "Sukahaji",
+   "Sleepy": 4,
+   "Rebahan": 7,
+   "Procastinate": 7
+ },
+ {
+   "Puskesmas": "Sukajadi",
+   "Sleepy": 8,
+   "Rebahan": 1,
+   "Procastinate": 2
+ },
+ {
+   "Puskesmas": "Sukapakir",
+   "Sleepy": 2,
+   "Rebahan": 8,
+   "Procastinate": 8
+ },
+ {
+   "Puskesmas": "Sukarasa",
+   "Sleepy": 16,
+   "Rebahan": 20,
+   "Procastinate": 8
+ },
+ {
+   "Puskesmas": "Sukawarna",
+   "Sleepy": 19,
+   "Rebahan": 3,
+   "Procastinate": 20
+ },
+ {
+   "Puskesmas": "Suryalaya",
+   "Sleepy": 3,
+   "Rebahan": 5,
+   "Procastinate": 3
+ },
+ {
+   "Puskesmas": "Talaga Bodas",
+   "Sleepy": 6,
+   "Rebahan": 14,
+   "Procastinate": 5
+ },
+ {
+   "Puskesmas": "Taman Sari",
+   "Sleepy": 2,
+   "Rebahan": 12,
+   "Procastinate": 14
+ },
+ {
+   "Puskesmas": "Tamblong",
+   "Sleepy": 8,
+   "Rebahan": 16,
+   "Procastinate": 3
+ },
+ {
+   "Puskesmas": "Ujung Berung Indah",
+   "Sleepy": 10,
+   "Rebahan": 19,
+   "Procastinate": 7
+ }
+]
