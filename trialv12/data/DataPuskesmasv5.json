@@ -1,0 +1,377 @@
+[
+ {
+   "kode_pkm": "P3273160201",
+   "nama_pkm": "Ahmad Yani",
+   "kasus": 20
+ },
+ {
+   "kode_pkm": "P3273141202",
+   "nama_pkm": "Antapani",
+   "kasus": 20
+ },
+ {
+   "kode_pkm": "P3273130201",
+   "nama_pkm": "Arcamanik",
+   "kasus": 9
+ },
+ {
+   "kode_pkm": "P3273050204",
+   "nama_pkm": "Astana Anyar",
+   "kasus": 12
+ },
+ {
+   "kode_pkm": "P3273150202",
+   "nama_pkm": "Babakan Surabaya",
+   "kasus": 12
+ },
+ {
+   "kode_pkm": "P3273150201",
+   "nama_pkm": "Babakansari",
+   "kasus": 16
+ },
+ {
+   "kode_pkm": "P3273180201",
+   "nama_pkm": "Babatan",
+   "kasus": 4
+ },
+ {
+   "kode_pkm": "P3273170202",
+   "nama_pkm": "Balai Kota",
+   "kasus": 14
+ },
+ {
+   "kode_pkm": "P3273010204",
+   "nama_pkm": "Caringin",
+   "kasus": 4
+ },
+ {
+   "kode_pkm": "P3273100204",
+   "nama_pkm": "Cempaka Arum",
+   "kasus": 16
+ },
+ {
+   "kode_pkm": "P3273030202",
+   "nama_pkm": "Cetarip",
+   "kasus": 6
+ },
+ {
+   "kode_pkm": "P3273110202",
+   "nama_pkm": "Cibiru",
+   "kasus": 0
+ },
+ {
+   "kode_pkm": "P3273020202",
+   "nama_pkm": "Cibolerang",
+   "kasus": 5
+ },
+ {
+   "kode_pkm": "P3273010201",
+   "nama_pkm": "Cibuntu",
+   "kasus": 17
+ },
+ {
+   "kode_pkm": "P3273010203",
+   "nama_pkm": "Cigondewah",
+   "kasus": 9
+ },
+ {
+   "kode_pkm": "P3273070204",
+   "nama_pkm": "Cijagra Baru",
+   "kasus": 3
+ },
+ {
+   "kode_pkm": "P3273070203",
+   "nama_pkm": "Cijagra Lama",
+   "kasus": 0
+ },
+ {
+   "kode_pkm": "P3273070203",
+   "nama_pkm": "Cijagra Lama 1",
+   "kasus": 13
+ },
+ {
+   "kode_pkm": "P3273010202",
+   "nama_pkm": "Cijerah",
+   "kasus": 11
+ },
+ {
+   "kode_pkm": "P3273220201",
+   "nama_pkm": "Cikutra Lama",
+   "kasus": 20
+ },
+ {
+   "kode_pkm": "P3273110201",
+   "nama_pkm": "Cilengkrang",
+   "kasus": 1
+ },
+ {
+   "kode_pkm": "P3273120201",
+   "nama_pkm": "Cinambo",
+   "kasus": 13
+ },
+ {
+   "kode_pkm": "P3273110203",
+   "nama_pkm": "Cipadung",
+   "kasus": 14
+ },
+ {
+   "kode_pkm": "P3273260201",
+   "nama_pkm": "Cipaku",
+   "kasus": 16
+ },
+ {
+   "kode_pkm": "P3273100202",
+   "nama_pkm": "Cipamokolan",
+   "kasus": 5
+ },
+ {
+   "kode_pkm": "P3273260202",
+   "nama_pkm": "Ciumbuleuit",
+   "kasus": 12
+ },
+ {
+   "kode_pkm": "P3273230201",
+   "nama_pkm": "Dago",
+   "kasus": 6
+ },
+ {
+   "kode_pkm": "P3273100201",
+   "nama_pkm": "Derwati",
+   "kasus": 17
+ },
+ {
+   "kode_pkm": "P3273180102",
+   "nama_pkm": "Garuda",
+   "kasus": 2
+ },
+ {
+   "kode_pkm": "P3273142203",
+   "nama_pkm": "Girimande",
+   "kasus": 16
+ },
+ {
+   "kode_pkm": "P3273141201",
+   "nama_pkm": "Griya Antapani",
+   "kasus": 9
+ },
+ {
+   "kode_pkm": "P3273160202",
+   "nama_pkm": "Gumuruh",
+   "kasus": 17
+ },
+ {
+   "kode_pkm": "P3273160103",
+   "nama_pkm": "Ibrahim Adjie",
+   "kasus": 10
+ },
+ {
+   "kode_pkm": "P3273160103",
+   "nama_pkm": "Ibrahim Adjie 1",
+   "kasus": 7
+ },
+ {
+   "kode_pkm": "P3273141203",
+   "nama_pkm": "Jajaway",
+   "kasus": 0
+ },
+ {
+   "kode_pkm": "P3273210203",
+   "nama_pkm": "Jatihandap",
+   "kasus": 14
+ },
+ {
+   "kode_pkm": "P3273240203",
+   "nama_pkm": "Karang Setra",
+   "kasus": 5
+ },
+ {
+   "kode_pkm": "P3273040201",
+   "nama_pkm": "Kopo",
+   "kasus": 13
+ },
+ {
+   "kode_pkm": "P3273080203",
+   "nama_pkm": "Kujang Sari",
+   "kasus": 12
+ },
+ {
+   "kode_pkm": "P3273250201",
+   "nama_pkm": "Ledeng",
+   "kasus": 18
+ },
+ {
+   "kode_pkm": "P3273050202",
+   "nama_pkm": "Lio Genteng",
+   "kasus": 0
+ },
+ {
+   "kode_pkm": "P3273142201",
+   "nama_pkm": "Mandala Mekar",
+   "kasus": 6
+ },
+ {
+   "kode_pkm": "P3273090201",
+   "nama_pkm": "Margahayu Raya",
+   "kasus": 10
+ },
+ {
+   "kode_pkm": "P3273080202",
+   "nama_pkm": "Mengger",
+   "kasus": 2
+ },
+ {
+   "kode_pkm": "P3273060202",
+   "nama_pkm": "Moch. Ramdan",
+   "kasus": 2
+ },
+ {
+   "kode_pkm": "P3273220202",
+   "nama_pkm": "Neglasari",
+   "kasus": 0
+ },
+ {
+   "kode_pkm": "P3273210101",
+   "nama_pkm": "Padasuka",
+   "kasus": 10
+ },
+ {
+   "kode_pkm": "P3273050101",
+   "nama_pkm": "Pagarsih",
+   "kasus": 11
+ },
+ {
+   "kode_pkm": "P3273142202",
+   "nama_pkm": "Pamulang",
+   "kasus": 9
+ },
+ {
+   "kode_pkm": "P3273111201",
+   "nama_pkm": "Panghegar",
+   "kasus": 19
+ },
+ {
+   "kode_pkm": "P3273111202",
+   "nama_pkm": "Panyileukan",
+   "kasus": 15
+ },
+ {
+   "kode_pkm": "P3273080201",
+   "nama_pkm": "Pasawahan",
+   "kasus": 2
+ },
+ {
+   "kode_pkm": "P3273190201",
+   "nama_pkm": "Pasir Kaliki",
+   "kasus": 14
+ },
+ {
+   "kode_pkm": "P3273060203",
+   "nama_pkm": "Pasir Luyu",
+   "kasus": 11
+ },
+ {
+   "kode_pkm": "P3273210202",
+   "nama_pkm": "Pasirlayung",
+   "kasus": 10
+ },
+ {
+   "kode_pkm": "P3273060201",
+   "nama_pkm": "Pasundan",
+   "kasus": 0
+ },
+ {
+   "kode_pkm": "P3273050203",
+   "nama_pkm": "Pelindung Hewan",
+   "kasus": 0
+ },
+ {
+   "kode_pkm": "P3273230202",
+   "nama_pkm": "Puter",
+   "kasus": 10
+ },
+ {
+   "kode_pkm": "P3273100203",
+   "nama_pkm": "Riung Bandung",
+   "kasus": 17
+ },
+ {
+   "kode_pkm": "P3273130203",
+   "nama_pkm": "Rusunawa",
+   "kasus": 14
+ },
+ {
+   "kode_pkm": "P3273200201",
+   "nama_pkm": "Salam",
+   "kasus": 10
+ },
+ {
+   "kode_pkm": "P3273250203",
+   "nama_pkm": "Sarijadi",
+   "kasus": 11
+ },
+ {
+   "kode_pkm": "P3273090202",
+   "nama_pkm": "Sekejati",
+   "kasus": 0
+ },
+ {
+   "kode_pkm": "P3273230203",
+   "nama_pkm": "Sekeloa",
+   "kasus": 16
+ },
+ {
+   "kode_pkm": "P3273130202",
+   "nama_pkm": "Sindang Jaya",
+   "kasus": 15
+ },
+ {
+   "kode_pkm": "P3273240202",
+   "nama_pkm": "Suka Jadi",
+   "kasus": 1
+ },
+ {
+   "kode_pkm": "P3273030201",
+   "nama_pkm": "Suka Parkir",
+   "kasus": 2
+ },
+ {
+   "kode_pkm": "P3273250202",
+   "nama_pkm": "Suka Rasa",
+   "kasus": 13
+ },
+ {
+   "kode_pkm": "P3273240201",
+   "nama_pkm": "Suka Warna",
+   "kasus": 6
+ },
+ {
+   "kode_pkm": "P3273020201",
+   "nama_pkm": "Sukahaji",
+   "kasus": 14
+ },
+ {
+   "kode_pkm": "P3273070202",
+   "nama_pkm": "Suryalaya",
+   "kasus": 17
+ },
+ {
+   "kode_pkm": "P3273070201",
+   "nama_pkm": "Talaga Bodas",
+   "kasus": 20
+ },
+ {
+   "kode_pkm": "P3273200202",
+   "nama_pkm": "Taman Sari",
+   "kasus": 2
+ },
+ {
+   "kode_pkm": "P3273170201",
+   "nama_pkm": "Tamblong",
+   "kasus": 11
+ },
+ {
+   "kode_pkm": "P3273120202",
+   "nama_pkm": "Ujung Berung Indah",
+   "kasus": 9
+ }
+]
