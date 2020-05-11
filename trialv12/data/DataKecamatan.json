@@ -1,182 +1,152 @@
 [
  {
-   "Kecamatan": "KOTA BANDUNG ANDIR",
-   "Sleepy": 4,
-   "Rebahan": 5,
-   "Procastinate": 7
+   "kode_kec": 3273180,
+   "nama_kec": "Andir",
+   "kasus": 6
  },
  {
-   "Kecamatan": "KOTA BANDUNG ARCAMANIK",
-   "Sleepy": 6,
-   "Rebahan": 10,
-   "Procastinate": 8
+   "kode_kec": 3273141,
+   "nama_kec": "Antapani",
+   "kasus": 2
  },
  {
-   "Kecamatan": "KOTA BANDUNG ASTANA ANYAR",
-   "Sleepy": 3,
-   "Rebahan": 3,
-   "Procastinate": 1
+   "kode_kec": 3273130,
+   "nama_kec": "Arcamanik",
+   "kasus": 3
  },
  {
-   "Kecamatan": "KOTA BANDUNG BABAKAN CIPARAY",
-   "Sleepy": 7,
-   "Rebahan": 4,
-   "Procastinate": 15
+   "kode_kec": 3273050,
+   "nama_kec": "Astanaanyar",
+   "kasus": 2
  },
  {
-   "Kecamatan": "KOTA BANDUNG BANDUNG KIDUL",
-   "Sleepy": 8,
-   "Rebahan": 15,
-   "Procastinate": 6
+   "kode_kec": 3273020,
+   "nama_kec": "Babakan Ciparay",
+   "kasus": 11
  },
  {
-   "Kecamatan": "KOTA BANDUNG BANDUNG KULON",
-   "Sleepy": 1,
-   "Rebahan": 1,
-   "Procastinate": 9
+   "kode_kec": 3273080,
+   "nama_kec": "Bandung Kidul",
+   "kasus": 2
  },
  {
-   "Kecamatan": "KOTA BANDUNG BANDUNG WETAN",
-   "Sleepy": 15,
-   "Rebahan": 11,
-   "Procastinate": 3
+   "kode_kec": 3273010,
+   "nama_kec": "Bandung Kulon",
+   "kasus": 0
  },
  {
-   "Kecamatan": "KOTA BANDUNG BATUNUNGGAL",
-   "Sleepy": 6,
-   "Rebahan": 17,
-   "Procastinate": 7
+   "kode_kec": 3273200,
+   "nama_kec": "Bandung Wetan",
+   "kasus": 18
  },
  {
-   "Kecamatan": "KOTA BANDUNG BOJONGLOA KALER",
-   "Sleepy": 9,
-   "Rebahan": 25,
-   "Procastinate": 8
+   "kode_kec": 3273160,
+   "nama_kec": "Batununggal",
+   "kasus": 0
  },
  {
-   "Kecamatan": "KOTA BANDUNG BOJONGLOA KIDUL",
-   "Sleepy": 3,
-   "Rebahan": 13,
-   "Procastinate": 1
+   "kode_kec": 3273030,
+   "nama_kec": "Bojongloa Kaler",
+   "kasus": 14
  },
  {
-   "Kecamatan": "KOTA BANDUNG CIBEUNYING KALER",
-   "Sleepy": 6,
-   "Rebahan": 4,
-   "Procastinate": 15
+   "kode_kec": 3273040,
+   "nama_kec": "Bojongloa Kidul",
+   "kasus": 15
  },
  {
-   "Kecamatan": "KOTA BANDUNG CIBEUNYING KIDUL",
-   "Sleepy": 2,
-   "Rebahan": 6,
-   "Procastinate": 6
+   "kode_kec": 3273090,
+   "nama_kec": "Buahbatu",
+   "kasus": 11
  },
  {
-   "Kecamatan": "KOTA BANDUNG CIBEUNYING KIDUL",
-   "Sleepy": 5,
-   "Rebahan": 3,
-   "Procastinate": 4
+   "kode_kec": 3273220,
+   "nama_kec": "Cibeunying Kaler",
+   "kasus": 18
  },
  {
-   "Kecamatan": "KOTA BANDUNG CIBIRU",
-   "Sleepy": 1,
-   "Rebahan": 7,
-   "Procastinate": 6
+   "kode_kec": 3273210,
+   "nama_kec": "Cibeunying Kidul",
+   "kasus": 4
  },
  {
-   "Kecamatan": "KOTA BANDUNG CICADAS",
-   "Sleepy": 7,
-   "Rebahan": 8,
-   "Procastinate": 3
+   "kode_kec": 3273110,
+   "nama_kec": "Cibiru",
+   "kasus": 1
  },
  {
-   "Kecamatan": "KOTA BANDUNG CICENDO",
-   "Sleepy": 18,
-   "Rebahan": 1,
-   "Procastinate": 7
+   "kode_kec": 3273190,
+   "nama_kec": "Cicendo",
+   "kasus": 2
  },
  {
-   "Kecamatan": "KOTA BANDUNG CIDADAP",
-   "Sleepy": 5,
-   "Rebahan": 15,
-   "Procastinate": 8
+   "kode_kec": 3273260,
+   "nama_kec": "Cidadap",
+   "kasus": 12
  },
  {
-   "Kecamatan": "KOTA BANDUNG CINAMBO",
-   "Sleepy": 10,
-   "Rebahan": 6,
-   "Procastinate": 2
+   "kode_kec": 3273121,
+   "nama_kec": "Cinambo",
+   "kasus": 18
  },
  {
-   "Kecamatan": "KOTA BANDUNG COBLONG",
-   "Sleepy": 3,
-   "Rebahan": 9,
-   "Procastinate": 5
+   "kode_kec": 3273230,
+   "nama_kec": "Coblong",
+   "kasus": 16
  },
  {
-   "Kecamatan": "KOTA BANDUNG GEDEBAGE",
-   "Sleepy": 4,
-   "Rebahan": 6,
-   "Procastinate": 1
+   "kode_kec": 3273101,
+   "nama_kec": "Gedebage",
+   "kasus": 1
  },
  {
-   "Kecamatan": "KOTA BANDUNG KIARACONDONG",
-   "Sleepy": 15,
-   "Rebahan": 2,
-   "Procastinate": 7
+   "kode_kec": 3273150,
+   "nama_kec": "Kiaracondong",
+   "kasus": 10
  },
  {
-   "Kecamatan": "KOTA BANDUNG LENGKONG",
-   "Sleepy": 1,
-   "Rebahan": 5,
-   "Procastinate": 18
+   "kode_kec": 3273070,
+   "nama_kec": "Lengkong",
+   "kasus": 8
  },
  {
-   "Kecamatan": "KOTA BANDUNG MARGACINTA",
-   "Sleepy": 11,
-   "Rebahan": 1,
-   "Procastinate": 9
+   "kode_kec": 3273142,
+   "nama_kec": "Mandalajati",
+   "kasus": 17
  },
  {
-   "Kecamatan": "KOTA BANDUNG PANYILEUKAN",
-   "Sleepy": 17,
-   "Rebahan": 7,
-   "Procastinate": 6
+   "kode_kec": 3273111,
+   "nama_kec": "Panyileukan",
+   "kasus": 5
  },
  {
-   "Kecamatan": "KOTA BANDUNG RANCASARI",
-   "Sleepy": 25,
-   "Rebahan": 18,
-   "Procastinate": 2
+   "kode_kec": 3273100,
+   "nama_kec": "Rancasari",
+   "kasus": 0
  },
  {
-   "Kecamatan": "KOTA BANDUNG REGOL",
-   "Sleepy": 13,
-   "Rebahan": 5,
-   "Procastinate": 5
+   "kode_kec": 3273060,
+   "nama_kec": "Regol",
+   "kasus": 16
  },
  {
-   "Kecamatan": "KOTA BANDUNG SUKAJADI",
-   "Sleepy": 4,
-   "Rebahan": 10,
-   "Procastinate": 1
+   "kode_kec": 3273240,
+   "nama_kec": "Sukajadi",
+   "kasus": 11
  },
  {
-   "Kecamatan": "KOTA BANDUNG SUKASARI",
-   "Sleepy": 9,
-   "Rebahan": 3,
-   "Procastinate": 7
+   "kode_kec": 3273250,
+   "nama_kec": "Sukasari",
+   "kasus": 9
  },
  {
-   "Kecamatan": "KOTA BANDUNG SUMUR BANDUNG",
-   "Sleepy": 7,
-   "Rebahan": 17,
-   "Procastinate": 7
+   "kode_kec": 3273170,
+   "nama_kec": "Sumur Bandung",
+   "kasus": 5
  },
  {
-   "Kecamatan": "KOTA BANDUNG UJUNG BERUNG",
-   "Sleepy": 1,
-   "Rebahan": 25,
-   "Procastinate": 1
+   "kode_kec": 3273120,
+   "nama_kec": "Ujung Berung",
+   "kasus": 19
  }
 ]
